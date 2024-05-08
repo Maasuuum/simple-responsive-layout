@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .two{
+            display: flex;
+            gap: 10px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .container img{
+            width: 30%;
+            height: 250px; 
+        }
+        .btn{
+            background-color: rgb(25, 92, 201);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        @media screen and (max-width: 576px){
+            .one{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .two{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .container img{
+            width: 100%;
+            height: 250px; 
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <img src="Images/VIER PFOTEN_2017-10-20_164-3854x2667-1920x1329.jpg" alt="">
+            <div class="one-child">
+                <h3>Post Title Will Be Here</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nisi non quidem laudantium, repudiandae, voluptas aliquam atque optio tempore sunt hic architecto dolore labore reprehenderit perspiciatis tenetur facilis, quibusdam itaque?
+            </p>
+            <button class="btn">Read More</button>
+            </div>
+        </div>
+        <div class="two">
+            <img src="Images/healthy-011636373981.jpg" alt="">
+            <div>
+                <h3>Post Title Will Be Here</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nisi non quidem laudantium, repudiandae, voluptas aliquam atque optio tempore sunt hic architecto dolore labore reprehenderit perspiciatis tenetur facilis, quibusdam itaque?
+            </p>
+            <button class="btn">Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
